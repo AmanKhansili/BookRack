@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="E-commerce.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Productes details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="Home.html"><img src="Images/Bookrack.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="Home.html">Home</li></a>
+                    <li><a href="1st page.html">Product</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contect.html">Contact</a></li>
+                    <li><a href="#">Account</a></li>
+                    <!-- -----------Search Box----------- -->
+                    <li class="search">
+                        <input type="search" placeholder="Search......." class="input"> 
+                        <i class="fa fa-search" onclick="s()"></i>           
+                    </li>
+                </ul>
+            </nav>
+            <img src="Images/icon-1.png" class="cart-icon">
+            <img src="Images/icon-2.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    
+    <!-- ----------single product detail---------- -->
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="Images/8.jpg" id="ProductImg" style="width: 100%;height: 500px;">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="Images/8.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Images/8.1.jpeg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Images/8.2.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Images/8.3.jpg" width="100%" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 details">
+                <p>Home/Books</p>
+                <h1>Site Warrior Of Mithila weitten by 'Amish'</h1>
+                <!-- <h4>₹235.00</h4> -->
+                <a href="https://drive.google.com/file/d/1hxIht8X_G3twobcdhqlN6HIegCCiCpS1/view?usp=sharing" target="NewTab" class="Readbtn btn">Read</a><br>
+                <!-- <input type="number" value="1" min="1" max="5"> -->
+                <a href="#" class="btn">Save To Cart</a>
+                <h3>Product Detail <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>
+                    'Amish is India's first literary popstar.'
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- ----------title-------------- -->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <a href="1st page.html"><p>View More</p></a>
+        </div>
+    </div>
+
+    <!-- ----------Product--------- -->
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <img src="Images/computer-3.jpeg">
+                <h4>Computer Science</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <!-- <p>₹245.00</p> -->
+            </div>
+            <div class="col-4">
+                <img src="Images/hindicomic-3.jpeg">
+                <h4>Mritue Dand(Nagraj)</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <!-- <p>₹69.00</p> -->
+            </div>
+            <div class="col-4">
+                <img src="Images/science-1.jpeg">
+                <h4>The Atom</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <!-- <p>₹85.00</p> -->
+            </div>
+            <div class="col-4">
+                <img src="Images/godan.jpeg">
+                <h4>godan</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <!-- <p>₹70.00</p> -->
+            </div>
+            <div class="col-4">
+                <img src="Images/SUPERMAN-F.jpg">
+                <h4>Superman</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <!-- <p>₹343.00</p> -->
+            </div>       
+            <div class="col-4">
+                <img src="Images/BETAL-F.jpg">
+                <h4>Betal Pachesi</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <!-- <p>₹89.00</p> -->
+            </div> 
+            <div class="col-4">
+                <img src="Images/JOKER-F.jpg">
+                <h4>Batman The killing Joker</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <!-- <p>₹217.00</p> -->
+            </div> 
+            <div class="col-4">
+                <img src="Images/comic-8.jpeg">
+                <h4>The Infinity Gaauntlet</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <!-- <p>₹357.00</p> -->
+            </div> 
+        </div>
+    </div>
+<!-- ---------footer---------- -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Downlode Our App</h3>
+                <p>Downlode App For Android And Ios Mobile Phone.</p>
+                <div class="app-logo">
+                    <img src="Images/googlestore.png">
+                    <img src="Images/applestore.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <a href="#"><img src="Images/Bookrack.png"></a> 
+                <p>Our Purpose Is To Sustainably Make The Pleasur And Benefits
+                    Of Sports Accessible To The Many.
+                </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Quick Links</h3>
+                <ul>
+                  <a href="#"><li>Event</li></a>          
+                  <a href="#"><li>Team</li></a>
+                  <a href="#"><li>Mentors</li></a>        
+                  <a href="#"><li>Gallery</li></a>        
+                  <a href="#"><li>Terms and conditions</li></a>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Folllow us</h3>
+                <ul>
+                    <a href="https://m.facebook.com/aman.khansili?ref=bookmarks" target="NewTab"><li>Facebook</li></a>          
+                    <a href="https://twitter.com/amankhansilee?s=08" target="NewTab"><li>Twitter</li></a>
+                    <a href="https://www.instagram.com/amankhansili/" target="NewTab"><li>Instagram</li></a>        
+                    <a href="https://web.telegram.im/#/im?p=" target="NewTab"><li>Telegram</li></a>        
+                </ul>
+            </div>  
+        </div>
+        <hr>
+        <p class="copyright">&copy:Bookrack.com | designeed by Aman Khansili </p>
+    </div>
+</div>
+
+</body>
+</html>
+<!-- -----------js for toggle menu------------ -->
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+                MenuItems.style.maxHeight = "200px"
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+<!-- ---------js for product Gallery--------- -->
+<script>
+    var ProductImg = document.getElementById("ProductImg");
+    var SmallImg = document.getElementsByClassName("small-img");
+
+        SmallImg[0].onclick = function(){
+            ProductImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function(){
+            ProductImg.src = SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function(){
+            ProductImg.src = SmallImg[2].src;
+        }
+        SmallImg[3].onclick = function(){
+            ProductImg.src = SmallImg[3].src;
+        }
+</script>
+<!-- -----------js for Search bar------------ -->
+<script>
+    function s()
+    {
+        var byclass = document.getElementsByClassName("input")
+        if(byclass[0].style.width == "0px")
+        {
+            byclass[0].style.width = "135px";
+        }
+        else
+        {
+            byclass[0].style.width = "0px";
+        }
+        
+    }
+</script>

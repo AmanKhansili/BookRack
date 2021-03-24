@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="E-commerce.css">
+    <title>contact</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="Home.html"><img src="Images/Bookrack.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="1st page.html">Product</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contect.html">Contact</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+            </nav>
+            <img src="Images/icon-1.png" class="cart-icon">
+            <img src="Images/icon-2.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    <!-- ------------About us content--------- -->
+    <!-- <div class="contect-container">
+		<div class="row">        
+			<div class="col-6">
+				<p><h1>Contact Us</h1>  <br>
+				Vishwanaathpuram street Manpur Rood Kashipur,Zip Code-244713<br>
+				amankhansilee@gmil.com<br>
+				7037489355 </p>
+			</div>          
+			<div class="col-6">
+				<img class="image" src="C:/Users/Aman/Downloads/book-4.jpg">
+			</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3482.05066271377!2d78.95828391493029!3d29.22206428218889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a43c5b60b910d%3A0xa23600ca7d3f6a27!2sGovernment%20Polytechnic%20Kashipur!5e0!3m2!1sen!2sin!4v1583929674995!5m2!1sen!2sin" frameborder="0" style="border:0;width: 1488px;height: 350px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                    
+		</div>      
+    </div> -->
+    <div class="contect-page">
+        <div class="container">
+            <div class="row shadow">
+                <div class="col-2 style">
+                    <p><h1>Contact Us</h1>  <br>
+                        Vishwanaathpuram street Manpur Rood Kashipur,Zip Code-244713<br>
+                        amankhansilee@gmil.com<br>
+                        7037489355 </p>
+                </div>
+                <div class="col-2 style">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAman-Khansili-104509190928201%2F&tabs=messages&width=300&height=250&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+            <div>        
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3482.05066271377!2d78.95828391493029!3d29.22206428218889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a43c5b60b910d%3A0xa23600ca7d3f6a27!2sGovernment%20Polytechnic%20Kashipur!5e0!3m2!1sen!2sin!4v1583929674995!5m2!1sen!2sin"
+                frameborder="0" style="border:0;width: 100%;height: 350px;" allowfullscreen="" aria-hidden="false" tabindex="0">
+                </iframe> 
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ---------footer---------- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Downlode Our App</h3>
+                    <p>Downlode App For Android And Ios Mobile Phone.</p>
+                    <div class="app-logo">
+                        <img src="Images/googlestore.png">
+                        <img src="Images/applestore.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <a href="#"><img src="Images/Bookrack.png"></a> 
+                    <p>Our Purpose Is To Sustainably Make The Pleasur And Benefits
+                        Of Sports Accessible To The Many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Quick Links</h3>
+                    <ul>
+                    <a href="#"><li>Event</li></a>          
+                    <a href="#"><li>Team</li></a>
+                    <a href="#"><li>Mentors</li></a>        
+                    <a href="#"><li>Gallery</li></a>        
+                    <a href="#"><li>Terms and conditions</li></a>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Folllow us</h3>
+                    <ul>
+                        <a href="https://m.facebook.com/aman.khansili?ref=bookmarks" target="NewTab"><li>Facebook</li></a>          
+                        <a href="https://twitter.com/amankhansilee?s=08" target="NewTab"><li>Twitter</li></a>
+                        <a href="https://www.instagram.com/amankhansili/" target="NewTab"><li>Instagram</li></a>        
+                        <a href="https://web.telegram.im/#/im?p=" target="NewTab"><li>Telegram</li></a>        
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy:Bookrack.com | designeed by Aman Khansili </p>
+        </div>
+    </div>
+</body>
+</html>
+<!-- -----------js for toggle menu------------ -->
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+                MenuItems.style.maxHeight = "200px"
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>

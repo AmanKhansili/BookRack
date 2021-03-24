@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="E-commerce.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+    <script src="https://kit.fontawesome.com/5f291335aa.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="Images/Bookrack.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="1st page.html">Product</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contect.html">Contact</a></li>
+                    <li><a href="index.html">Account</a></li>
+<!-- -----------Search Box----------- -->
+                    <li class="search">
+                        <input type="search" placeholder="Search......." class="input"> 
+                        <i class="fa fa-search" onclick="s()"></i>           
+                    </li>
+                </ul>
+            </nav>
+            
+            <img src="Images/icon-1.png" class="cart-icon">
+            <img src="Images/icon-2.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Give Your Workout<br> A New style!</h1>
+                <p>Succes isn't always about greatness. It's about
+                consistence. Consistent <br> hard work gains success. Greatness will come.
+            </p>
+            <a href="#" class="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="Images/book.png">
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- -------featured categories--------- -->
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="Images/(5).jpeg" >
+            </div>
+            <div class="col-3">
+                <img src="Images/(7).jpeg" >
+            </div>
+            <div class="col-3">
+                <img src="Images/comic-7.png" >
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- -------featured products---------     -->
+    <div class="small-container">
+        <h2 class="title">Feature products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="CaptainAmericaDetail.html"><img src="Images/comic-1.jpeg"></a>
+                <h4>Captain America</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <!-- <p>₹500.00</p> -->
+            </div>
+            <div class="col-4">
+                <a href="AvengerEndgamedetail.html"><img src="Images/comic-2.jpeg"></a>
+                <h4>Avenger Endgame</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <!-- <p>₹235.00</p> -->
+            </div>
+            <div class="col-4">
+               <a href="sitaDetail.html"><img src="Images/8.jpg"></a> 
+                <h4>Sita Warrior of Mithla</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <!-- <p>₹67.00</p> -->
+            </div>
+            <div class="col-4">
+                <img src="Images/(4).jpeg">
+                <h4>The Ninth Life</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <!-- <p>₹800.00</p> -->
+            </div>        
+        </div>
+
+        <h2 class="title">Latest products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Images/comic-3.png">
+                <h4>Captain Marvel</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <!-- <p>₹445.00</p> -->
+            </div>
+            <div class="col-4">
+                <img src="Images/math-1.jpeg">
+                <h4>Number Theory</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <!-- <p>₹78.00</p> -->
+            </div>
+            <div class="col-4">
+                <img src="Images/(6).jpeg">
+                <h4>Fall to Earth</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <!-- <p>₹551.00</p> -->
+            </div>
+            <div class="col-4">
+                <img src="Images/(1).jpg">
+                <h4>Meluha ke Mritunjay</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <!-- <p>₹225.00</p> -->
+            </div> 
+            <div class="col-4">
+                <a href="https://drive.google.com/file/d/1iBtbLKajlMINIK7ELtpTQVMQxlAbE9Y_/view?usp=sharing">
+                    <img src="Images/hindicomic-6.jpeg">
+                </a>
+                <h4>Nagraj-Sanhaar </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <!-- <p>₹50.00</p> -->
+            </div>
+            <div class="col-4">
+                <img src="Images/computer-2.jpeg">
+                <h4>Coding with Scratch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <!-- <p>₹85.00</p> -->
+            </div>
+            <div class="col-4">
+                <img src="Images/hindicomic-7.jpeg">
+                <h4>Chacha Chaudhry-16</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <!-- <p>₹45.00</p> -->
+            </div>
+            <div class="col-4">
+                <img src="Images/hindicomic-5.jpeg">
+                <h4>Sarvnayak Dhruv</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <!-- <p>₹64.00</p> -->
+            </div>       
+        </div>
+    </div>
+<!-- -----------offer------------- -->
+    <div class="offer">
+        <div class="small-container shadow">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Images/1605453602789.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusive Available on Book Rack</p>
+                    <h1>Hard Wired</h1>
+                    <small>
+                        The HARD WIRED is written by most poppular writer 
+                        Mr.Len Vlahos.It's relatid when A.I.(Artificial Intelligence)
+                        bacomes real life.
+                    </small><br>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------testimonial------------- -->
+    <div class="testimonial">
+        <div class="container-1">
+            <div class="card">
+                <div class="content">
+                    <img src="Images/IMG_20201209_160523.jpg">
+                    <h3>Aman Khansili</h3>
+                    <p>Team Leader</p>
+                    <div class="media"> 
+                        <a href="https://m.facebook.com/aman.khansili?ref=bookmarks"><i class="fab fa-facebook-f"></i></a> 
+                        <a href="https://www.instagram.com/amankhansili/"><i class="fab fa-instagram"></i></a>      
+                        <a href="https://twitter.com/amankhansilee?s=08"><i class="fab fa-twitter"></i></a> 
+                        <a href="https://web.telegram.im/#/im?p="><i class="fab fa-telegram-plane"></i></a> 
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="content">
+                    <img src="Images/IMG_20201209_160300.jpg">
+                    <h3>Sajal Tiwari</h3>
+                    <p>Team Members</p>
+                    <div class="media"> 
+                        <a href="#"><i class="fab fa-facebook-f"></i></a> 
+                        <a href="#"><i class="fab fa-instagram"></i></a>      
+                        <a href="#"><i class="fab fa-twitter"></i></a> 
+                        <a href="https://web.telegram.im/#/im?p="><i class="fab fa-telegram-plane"></i></a> 
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="content">
+                    <img src="Images/IMG_20201209_161259.jpg">
+                    <h3>Abhijeet Khushwaha</h3>
+                    <p>Team Members</p>
+                    <div class="media"> 
+                        <a href="#"><i class="fab fa-facebook-f"></i></a> 
+                        <a href="#"><i class="fab fa-instagram"></i></a>      
+                        <a href="#"><i class="fab fa-twitter"></i></a> 
+                        <a href="https://web.telegram.im/#/im?p="><i class="fab fa-telegram-plane"></i></a> 
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="content">
+                    <img src="Images/IMG-20201209-WA0003.jpg">
+                    <h3>Beerendra singh Rawat</h3>
+                    <p>Team Members</p>
+                    <div class="media"> 
+                        <a href="#"><i class="fab fa-facebook-f"></i></a> 
+                        <a href="#"><i class="fab fa-instagram"></i></a>      
+                        <a href="#"><i class="fab fa-twitter"></i></a> 
+                        <a href="https://web.telegram.im/#/im?p="><i class="fab fa-telegram-plane"></i></a> 
+                    </div>
+                </div>
+            </div>
+        </div>      
+    </div>      
+    <!-- <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        If a chiled can't learn the way we teach maybe we
+                        should teach the way they learn.So we can build this website 
+                        for learning and fun.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i> 
+                    </div>
+                    <img src="Images/IMG_20201209_160523.jpg">
+                    <h3>Aman Khansili</h3>
+                </div>
+                <div class="col-2">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        If a chiled can't learn the way we teach maybe we
+                        should teach the way they learn.So we can build this website 
+                        for learning and fun.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i> 
+                    </div>
+                    <img src="Images/IMG_20201209_161259.jpg">
+                    <h3>Abhijeet Khushwaha</h3>
+                </div>
+                <div class="col-2">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        If a chiled can't learn the way we teach maybe we
+                        should teach the way they learn.So we can build this website 
+                        for learning and fun.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i> 
+                    </div>
+                    <img src="Images/IMG-20201209-WA0003.jpg">
+                    <h3>Birendra Singh Rawat</h3>
+                </div>
+                <div class="col-2">
+                    <i class="fa fa-quote-left"></i>    
+                    <p>
+                        If a chiled can't learn the way we teach maybe we
+                        should teach the way they learn.So we can build this website 
+                        for learning and fun.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i> 
+                    </div>
+                    <img src="Images/IMG_20201209_160300.jpg">
+                    <h3>Sajal Tiwari</h3>
+                </div>
+            </div>
+        </div>
+    </div>  -->
+<!-- -----------Brand--------- -->
+<div class="brand">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="Images/brand-2.png">
+            </div>
+            <div class="col-5">
+                <img src="Images/brand-4.png">
+            </div>
+            <div class="col-5">
+                <img src="Images/brand-3.png">
+            </div>
+            <div class="col-5">
+                <img src="Images/brand-1.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------footer---------- -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Downlode Our App</h3>
+                <p>Downlode App For Android And Ios Mobile Phone.</p>
+                <div class="app-logo">
+                    <img src="Images/googlestore.png">
+                    <img src="Images/applestore.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <a href="#"><img src="Images/Bookrack.png"></a> 
+                <p>Our Purpose Is To Sustainably Make The Pleasur And Benefits
+                    Of Sports Accessible To The Many.
+                </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Quick Links</h3>
+                <ul>
+                  <a href="#"><li>Event</li></a>          
+                  <a href="#"><li>Team</li></a>
+                  <a href="#"><li>Mentors</li></a>        
+                  <a href="#"><li>Gallery</li></a>        
+                  <a href="#"><li>Terms and conditions</li></a>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Folllow us</h3>
+                <ul>
+                    <a href="https://m.facebook.com/aman.khansili?ref=bookmarks" target="NewTab"><li>Facebook</li></a>          
+                    <a href="https://twitter.com/amankhansilee?s=08" target="NewTab"><li>Twitter</li></a>
+                    <a href="https://www.instagram.com/amankhansili/" target="NewTab"><li>Instagram</li></a>        
+                    <a href="https://web.telegram.im/#/im?p=" target="NewTab"><li>Telegram</li></a>        
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">&copy:Bookrack.com | designed by Aman Khansili </p>
+    </div>
+</div>
+</body>
+</html>
+<script src="E:/java script/Time-Pas/vanilla-tilt.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".container-1 .card"),{
+    max: 25,
+    speed: 400,
+});
+</script>
+<!-- -----------js for toggle menu------------ -->
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+                MenuItems.style.maxHeight = "215px"
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+<!-- -----------js for Search bar------------ -->
+<script>
+    function s()
+    {
+        var byclass = document.getElementsByClassName("input")
+        if(byclass[0].style.width == "0px")
+        {
+            byclass[0].style.width = "135px";
+        }
+        else
+        {
+            byclass[0].style.width = "0px";
+        }
+        
+    }
+</script>
