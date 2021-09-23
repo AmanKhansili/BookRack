@@ -39,18 +39,18 @@
                             <span onclick="Register()">Register</span>
                             <hr id="Indicator">
                         </div>
-                        <form id="LoginForm" action="Login.php" method="POST">
+                        <form onsubmit="return log()" action="Home.html" id="LoginForm">
                             <input type="text" placeholder="Email" id="email">
                             <input type="password" placeholder="Password" id="pas">
                             <button class="btn">Log in</button>
                             <a href="#">Forgot Password ?</a>
                         </form>
 
-                        <form id="RegForm" action="registration.php" method="POST">
-                            <input type="text" placeholder="Username" name="Uname">
-                            <input type="email" placeholder="Email" name="Email">
-                            <input id="password" type="password" placeholder="Password" name="Pass">
-                            <input id="confirm" type="password" placeholder="Confirm Password" name="Cpass">
+                        <form id="RegForm">
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="Email">
+                            <input id="password" type="password" placeholder="Password">
+                            <input id="confirm" type="password" placeholder="Confirm Password">
                             <button type="submit" class="btn" onclick="register()">Register</button>
                         </form>
                     </div>
@@ -135,41 +135,26 @@
                 LoginForm.style.transform = "translatex(0px)";
                 Indicator.style.transform = "translatex(0px)";
             }
-
-        // var pass = document.getElementById("password");
-        // var con = document.getElementById("confirm");
-        //     function register()
-        //     {
-        //         if(pass == con)
-        //         {
-        //             alert("pass");
-        //         }
-        //         else
-        //         {
-        //             alert("Both are not same")
-        //         }
-        //     }
-
             
-            // function log()
-            // {
-            // var email = document.getElementById("email").value;
-            // var pas = document.getElementById("pas").value;
-            // var reg = /aman/;
-            // var regpas = /Aman[@]2021/i;
+            function log()
+            {
+            var email = document.getElementById("email").value;
+            var pas = document.getElementById("pas").value;
+            var reg = /aman/;
+            var regpas = /Aman[@]2021/i;
     
-            // if(reg.test(email) && regpas.test(pas))
-            // {
-            //     alert("Welcome")
-            //     return true;
-            // }
-            // else
-            // {
-            //     alert("Fill all Fildes")
+            if(reg.test(email) && regpas.test(pas))
+            {
+                alert("Welcome")
+                return true;
+            }
+            else
+            {
+                alert("Fill all Fildes")
                 // gmail.style.border = "solid 2px red";
                 // document.getElementById("uslabl").style.visibility = "visible"
-        //         return false;
-        //     }
-        // }
+                return false;
+            }
+        }
 
     </script>
