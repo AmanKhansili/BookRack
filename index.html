@@ -1,160 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="E-commerce.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="E-commerce.css" />
     <title>Login/Register</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <a href="Home.html"><img src="Images/Bookrack.png" width="125px"></a>
-            </div>
-            <nav>
-                <ul id="MenuItems">
-                    <li><a href="#" disabl>Home</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Account</a></li>
-                </ul>
-            </nav>
-            <img src="Images/icon-1.png" class="cart-icon">
-            <img src="Images/icon-2.png" class="menu-icon" onclick="menutoggle()">
+      <div class="navbar">
+        <div class="logo">
+          <a href="Home.html"
+            ><img src="Images/Bookrack.png" width="125px"
+          /></a>
         </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="#" disabl>Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Account</a></li>
+          </ul>
+        </nav>
+        <img src="Images/icon-1.png" class="cart-icon" />
+        <img src="Images/icon-2.png" class="menu-icon" onclick="menutoggle()" />
+      </div>
     </div>
     <!-- -----------Account-Page ----------------- -->
     <div class="account-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="Images/account.png">
-                </div>
-                <div class="col-2">
-                    <div class="form-container">
-                        <div class="form-btn">
-                            <span onclick="Login()">Log in</span>
-                            <span onclick="Register()">Register</span>
-                            <hr id="Indicator">
-                        </div>
-                        <form onsubmit="return log()" action="Home.html" id="LoginForm">
-                            <input type="text" placeholder="Email" id="email">
-                            <input type="password" placeholder="Password" id="pas">
-                            <button class="btn">Log in</button>
-                            <a href="#">Forgot Password ?</a>
-                        </form>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <img src="Images/account.png" />
+          </div>
+          <div class="col-2">
+            <div class="form-container">
+              <div class="form-btn">
+                <span onclick="Login()">Log in</span>
+                <span onclick="Register()">Register</span>
+                <hr id="Indicator" />
+              </div>
+              <form onsubmit="return log()" action="Home.html" id="LoginForm">
+                <input type="text" placeholder="Email" id="email" />
+                <input type="password" placeholder="Password" id="pas" />
+                <button class="btn">Log in</button>
+                <a href="#">Forgot Password ?</a>
+              </form>
 
-                        <form id="RegForm">
-                            <input type="text" placeholder="Username">
-                            <input type="email" placeholder="Email">
-                            <input id="password" type="password" placeholder="Password">
-                            <input id="confirm" type="password" placeholder="Confirm Password">
-                            <button type="submit" class="btn" onclick="register()">Register</button>
-                        </form>
-                    </div>
-                </div>
+              <form id="RegForm">
+                <input type="text" placeholder="Username" />
+                <input type="email" placeholder="Email" />
+                <input id="password" type="password" placeholder="Password" />
+                <input
+                  id="confirm"
+                  type="password"
+                  placeholder="Confirm Password"
+                />
+                <button type="submit" class="btn" onclick="register()">
+                  Register
+                </button>
+              </form>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- ---------footer---------- -->
     <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col-1">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="footer-col-1">
                     <h3>Downlode Our App</h3>
                     <p>Downlode App For Android And Ios Mobile Phone.</p>
                     <div class="app-logo">
                         <img src="Images/googlestore.png">
                         <img src="Images/applestore.png">
                     </div>
-                </div>
-                <div class="footer-col-2">
-                    <a href="#"><img src="Images/Bookrack.png"></a> 
-                    <p>Our Purpose Is To Sustainably Make The Pleasur And Benefits
-                        Of Sports Accessible To The Many.
-                    </p>
-                </div>
-                <div class="footer-col-3">
-                    <h3>Quick Links</h3>
-                    <ul>
-                    <a href="#"><li>Event</li></a>          
-                    <a href="#"><li>Team</li></a>
-                    <a href="#"><li>Mentors</li></a>        
-                    <a href="#"><li>Gallery</li></a>        
-                    <a href="#"><li>Terms and conditions</li></a>
-                    </ul>
-                </div>
-                <div class="footer-col-4">
-                    <h3>Folllow us</h3>
-                    <ul>
-                        <a href="https://m.facebook.com/aman.khansili?ref=bookmarks" target="NewTab"><li>Facebook</li></a>          
-                        <a href="https://twitter.com/amankhansilee?s=08" target="NewTab"><li>Twitter</li></a>
-                        <a href="https://www.instagram.com/amankhansili/" target="NewTab"><li>Instagram</li></a>        
-                        <a href="https://web.telegram.im/#/im?p=" target="NewTab"><li>Telegram</li></a>        
-                    </ul>
-                </div>
-            </div>
-            <hr>
-            <p class="copyright">&copy:Bookrack.com | designed by Aman Khansili </p>
+                </div> -->
+          <div class="footer-col-2">
+            <a href="#"><img src="Images/Bookrack.png" /></a>
+            <p>
+              Our Purpose Is To Sustainably Make The Pleasur And Benefits Of
+              Sports Accessible To The Many.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Quick Links</h3>
+            <ul>
+              <a href="#"><li>Event</li></a>
+              <a href="#"><li>Team</li></a>
+              <a href="#"><li>Mentors</li></a>
+              <a href="#"><li>Gallery</li></a>
+              <a href="#"><li>Terms and conditions</li></a>
+            </ul>
+          </div>
+          <div class="footer-col-3">
+            <h3>Folllow us</h3>
+            <ul>
+              <a
+                href="https://m.facebook.com/aman.khansili?ref=bookmarks"
+                target="NewTab"
+                ><li>Facebook</li></a
+              >
+              <a href="https://twitter.com/amankhansilee?s=08" target="NewTab"
+                ><li>Twitter</li></a
+              >
+              <a href="https://www.instagram.com/amankhansili/" target="NewTab"
+                ><li>Instagram</li></a
+              >
+              <a href="https://web.telegram.im/#/im?p=" target="NewTab"
+                ><li>Telegram</li></a
+              >
+            </ul>
+          </div>
         </div>
+        <hr />
+        <p class="copyright">&copy:Bookrack.com | designed by Aman Khansili</p>
+      </div>
     </div>
-
-</body>
+  </body>
 </html>
-   <!-- -----------js for toggle menu------------ -->
-    <script>
-        var MenuItems = document.getElementById("MenuItems")
+<!-- -----------js for toggle menu------------ -->
+<script>
+  var MenuItems = document.getElementById("MenuItems");
 
-        MenuItems.style.maxHeight = "0px";
+  MenuItems.style.maxHeight = "0px";
 
-        function menutoggle(){
-            if(MenuItems.style.maxHeight == "0px")
-            {
-                MenuItems.style.maxHeight = "200px"
-            }
-            else{
-                MenuItems.style.maxHeight = "0px";
-            }
-        }
-    </script>
-    <!-- ------------js for login form------------ -->
-    <script>
-        var LoginForm = document.getElementById("LoginForm");
-        var RegForm = document.getElementById("RegForm");
-        var Indicator = document.getElementById("Indicator");
-            function Register(){
-                RegForm.style.transform = "translatex(300px)";
-                LoginForm.style.transform = "translatex(300px)";
-                Indicator.style.transform = "translatex(100px)";
-            }
-            function Login(){
-                RegForm.style.transform = "translatex(0px)";
-                LoginForm.style.transform = "translatex(0px)";
-                Indicator.style.transform = "translatex(0px)";
-            }
-            
-            function log()
-            {
-            var email = document.getElementById("email").value;
-            var pas = document.getElementById("pas").value;
-            var reg = /aman/;
-            var regpas = /Aman[@]2021/i;
-    
-            if(reg.test(email) && regpas.test(pas))
-            {
-                alert("Welcome")
-                return true;
-            }
-            else
-            {
-                alert("Fill all Fildes")
-                // gmail.style.border = "solid 2px red";
-                // document.getElementById("uslabl").style.visibility = "visible"
-                return false;
-            }
-        }
+  function menutoggle() {
+    if (MenuItems.style.maxHeight == "0px") {
+      MenuItems.style.maxHeight = "200px";
+    } else {
+      MenuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+<!-- ------------js for login form------------ -->
+<script>
+  var LoginForm = document.getElementById("LoginForm");
+  var RegForm = document.getElementById("RegForm");
+  var Indicator = document.getElementById("Indicator");
+  function Register() {
+    RegForm.style.transform = "translatex(300px)";
+    LoginForm.style.transform = "translatex(300px)";
+    Indicator.style.transform = "translatex(100px)";
+  }
+  function Login() {
+    RegForm.style.transform = "translatex(0px)";
+    LoginForm.style.transform = "translatex(0px)";
+    Indicator.style.transform = "translatex(0px)";
+  }
 
-    </script>
+  function log() {
+    var email = document.getElementById("email").value;
+    var pas = document.getElementById("pas").value;
+    var reg = /aman/;
+    var regpas = /Aman[@]2021/i;
+
+    if (reg.test(email) && regpas.test(pas)) {
+      alert("Welcome");
+      return true;
+    } else {
+      alert("Fill all Fildes");
+      // gmail.style.border = "solid 2px red";
+      // document.getElementById("uslabl").style.visibility = "visible"
+      return false;
+    }
+  }
+</script>
