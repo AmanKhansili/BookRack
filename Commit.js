@@ -32,9 +32,7 @@ const makeCommits = (n) => {
   console.log(date);
 
   jsonfile.writeFile(path, { date: date }, () => {
-    simpleGit()
-      .add([path])
-      .commit(date, { "--date": date }, makeCommits.bind(this, n - 1));
+    simpleGit().add([path]).commit(date, { "--date": date }, makeCommits.bind(this, n - 1));
   });
 };
 
